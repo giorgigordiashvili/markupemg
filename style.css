@@ -170,7 +170,7 @@ body {
 }
 
 .slider {
-  height: 60vh;
+  height: 50vh;
   background-image: url("./background.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -206,6 +206,9 @@ body {
   background-color: #f7f7f9;
 }
 
+.vh-30 {
+  height: 30vh;
+}
 .navbar {
   min-height: 0;
 }
@@ -270,4 +273,9 @@ body {
 
 .opacity-8 {
   opacity: 0.5;
+}
+
+.emg-button:hover {
+  background-color: #0c2f4d;
+  cursor: pointer;
 }
