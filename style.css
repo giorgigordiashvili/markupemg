@@ -170,7 +170,7 @@ body {
 }
 
 .slider {
-  height: 50vh;
+  height: 70vh;
   background-image: url("./background.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -178,7 +178,7 @@ body {
 }
 
 .homeTopBox {
-  height: 36vh;
+  height: 26vh;
   border: 1px solid #8293a2;
   margin: 1vh;
   display: flex;
