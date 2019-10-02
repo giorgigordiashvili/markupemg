@@ -1,12 +1,5 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-nav {
+.navv {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   min-height: 8vh;
   background-color: #06344c;
@@ -14,6 +7,9 @@ nav {
   color: white;
 }
 
+.location {
+  padding: 1rem;
+}
 body {
   font-family: "Barlow Condensed", sans-serif;
 }
@@ -169,6 +165,42 @@ body {
   margin-right: 5px;
 }
 
+.logoes {
+  height: 30vh;
+}
+
+.border-emg {
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(120, 192, 57, 1);
+  -moz-box-shadow: inset 0px 0px 0px 1px rgba(120, 192, 57, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(120, 192, 57, 1);
+}
+.thumbnail {
+  height: 30vh;
+  background-image: url("./background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.min-vh-25 {
+  min-height: 25vh;
+}
+ul > li {
+  list-style: none;
+  text-align: left;
+}
+.str > li::before {
+  content: "\25AA"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #74bb53;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.border-color-emg {
+  border-color: #74bb53 !important;
+}
+
 .slider {
   height: 70vh;
   background-image: url("./background.jpg");
@@ -217,9 +249,32 @@ body {
   padding-bottom: 0.2rem;
   -webkit-box-shadow: inset 0px -2px 0px 0px rgba(120, 192, 57, 1);
   -moz-box-shadow: inset 0px -2px 0px 0px rgba(120, 192, 57, 1);
+  box-shadow: inset 0px -4px 0px 0px rgba(120, 192, 57, 1);
+}
+
+.inner-line-emg {
+  padding-bottom: 0.2rem;
+  -webkit-box-shadow: inset 0px -2px 0px 0px rgba(120, 192, 57, 1);
+  -moz-box-shadow: inset 0px -2px 0px 0px rgba(120, 192, 57, 1);
   box-shadow: inset 0px -2px 0px 0px rgba(120, 192, 57, 1);
 }
 
+.nav-link.active,
+.nav-item.show .nav-link-emg {
+  color: black !important;
+  border-color: white !important;
+  padding-bottom: 0.2rem;
+  -webkit-box-shadow: inset 0px -2px 0px 0px rgba(120, 192, 57, 1);
+  -moz-box-shadow: inset 0px -2px 0px 0px rgba(120, 192, 57, 1);
+  box-shadow: inset 0px -2px 0px 0px rgba(120, 192, 57, 1);
+}
+.nav-tabs {
+  border: none !important;
+}
+
+.nav-link-emg {
+  color: black !important;
+}
 .nav-item:hover {
   -webkit-box-shadow: inset 0px -2px 0px 0px rgba(120, 192, 57, 1);
   -moz-box-shadow: inset 0px -2px 0px 0px rgba(120, 192, 57, 1);
@@ -279,15 +334,14 @@ body {
   background-color: #0c2f4d;
   cursor: pointer;
 }
-@media only screen and (max-width: 2500px){
+@media only screen and (max-width: 2500px) {
   .wt {
-    width: 15%!important;
+    width: 15% !important;
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .wt {
-    width: 25%!important;
+    width: 25% !important;
   }
 }
-
