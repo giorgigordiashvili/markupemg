@@ -334,14 +334,18 @@ ul > li {
   background-color: #0c2f4d;
   cursor: pointer;
 }
-@media only screen and (max-width: 2500px) {
-  .wt {
-    width: 15% !important;
-  }
+
+.card-news {
+  border-radius: 0;
+  height: 50vh;
+  background: linear-gradient(rgba(10, 87, 128, 0.4), rgba(10, 87, 128, 0.4)),
+    url("place.jpg");
 }
 
-@media only screen and (max-width: 768px) {
-  .wt {
-    width: 25% !important;
-  }
+.white-emg {
+  color: white;
+}
+
+.pt-10 {
+  padding-top: 5rem;
 }
