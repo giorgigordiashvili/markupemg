@@ -335,13 +335,27 @@ ul > li {
   cursor: pointer;
 }
 
+.vh-50 {
+  height: 30vh !important;
+}
 .card-news {
   border-radius: 0;
   height: 50vh;
   background: linear-gradient(rgba(10, 87, 128, 0.4), rgba(10, 87, 128, 0.4)),
     url("place.jpg");
 }
-
+.project-title-container {
+  background-color: white;
+}
+.project {
+  border-radius: 0;
+  height: 50%;
+  background: linear-gradient(rgba(10, 87, 128, 0.4), rgba(10, 87, 128, 0.4)),
+    url("place.jpg");
+}
+.project-body {
+  padding: 0;
+}
 .white-emg {
   color: white;
 }
