@@ -27,7 +27,7 @@ body {
 .nav-link {
   color: white !important;
   text-decoration: none;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-weight: bolder;
   font-size: 14px;
 }
