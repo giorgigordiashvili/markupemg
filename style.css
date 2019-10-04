@@ -220,7 +220,7 @@ ul > li {
 
 .currentPageTitle::first-letter {
   color: #78c039;
-  font-size: 120%;
+  font-size: 150%;
   border-bottom: 2px solid #78c039;
 }
 
