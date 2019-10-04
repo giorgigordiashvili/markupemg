@@ -349,3 +349,15 @@ ul > li {
 .pt-10 {
   padding-top: 5rem;
 }
+
+@media only screen and (max-width: 2500px) {
+  .wt {
+    width: 15% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wt {
+    width: 25% !important;
+  }
+}
