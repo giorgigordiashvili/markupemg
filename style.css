@@ -1,7 +1,6 @@
 .navv {
   display: flex;
   align-items: center;
-  min-height: 8vh;
   background-color: #06344c;
   opacity: 0.8;
   color: white;
@@ -359,6 +358,10 @@ ul > li {
   padding-top: 5rem;
 }
 
+.pt-8 {
+  padding-top: 4rem;
+}
+
 @media only screen and (max-width: 2500px) {
   .wt {
     width: 15% !important;
@@ -377,4 +380,11 @@ ul > li {
 
 .career-date {
   font-size: 1rem;
+}
+
+.navbar {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
