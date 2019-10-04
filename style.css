@@ -1,8 +1,8 @@
 .navv {
   display: flex;
   align-items: center;
-  background-color: #06344c;
-  opacity: 0.8;
+  background-color: #3d5971;
+  opacity: 0.9;
   color: white;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .bg-emg-blue {
-  background-color: #0c2f4d;
+  background-color: #3d5971;
 }
 
 .bg-emg-green {
@@ -201,7 +201,7 @@ ul > li {
 }
 
 .slider {
-  height: 65vh;
+  height: 70vh;
   background-image: url("./background.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -234,9 +234,6 @@ ul > li {
 
 .vh-30 {
   height: 30vh;
-}
-.navbar {
-  min-height: 0;
 }
 
 .inner-shadow-emg {
