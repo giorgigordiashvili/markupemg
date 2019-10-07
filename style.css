@@ -1,7 +1,6 @@
 .navv {
   display: flex;
   align-items: center;
-  background-color: #3d5971;
   opacity: 0.9;
   color: white;
 }
@@ -380,4 +379,10 @@ ul > li {
   padding-bottom: 0.5rem !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 30% !important;
+  }
 }
